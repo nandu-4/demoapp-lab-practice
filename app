@@ -125,3 +125,26 @@ Run:
 
 docker-compose up -d
 docker-compose ps
+
+------------
+
+https://awsacademy.instructure.com/courses/141967?invitation=QZQM8nbNoIV1EARZ99KJTMypXVGojj33t7gJ7r82
+
+Sudo apt update
+
+Sudo apt-get install docker.io
+
+Sudo apt install git
+
+Sudo apt install nano
+
+Nano Dockerfile
+FROM nginx:apline
+COPY .  /usr/share/nginx/index
+
+Sudo docker build -t myapp .
+
+Sudo docker run -d -p 6060:9090 myapp
+
+
+
