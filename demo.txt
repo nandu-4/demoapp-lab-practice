@@ -71,10 +71,10 @@ services:
 volumes:
   db-data:
 
-
 Commands
 
 docker-compose up -d
 docker-compose ps
 docker-compose logs web
+
 docker-compose down --volumes
