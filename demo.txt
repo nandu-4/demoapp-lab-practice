@@ -3,6 +3,7 @@ mvn clean package
 dir target
 java -jar target\demoapp-0.0.1-SNAPSHOT.jar   # optional run
 
+
 Q3 — Git & GitHub
 git init
 git config --global user.name "YourName"
@@ -78,5 +79,6 @@ docker-compose ps
 docker-compose logs web
 
 docker-compose down --volumes
+
 
 
