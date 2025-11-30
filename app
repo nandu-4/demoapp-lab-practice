@@ -143,7 +143,6 @@ FROM nginx:apline
 COPY .  /usr/share/nginx/index
 
 Sudo docker build -t myapp .
-
 Sudo docker run -d -p 6060:9090 myapp
 
 
